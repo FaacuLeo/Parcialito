@@ -95,7 +95,7 @@ void loop() {
 
 void moverServo(){
   for (int i = 0; i <= 180; i++){
-    // Desplazamos al ángulo correspondiente
+    
     servoMotor.write(i);
     delay(25);
 

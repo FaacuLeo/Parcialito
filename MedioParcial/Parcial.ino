@@ -9,8 +9,8 @@ LiquidCrystal lcd(11, 10, 5, 4, 3, 2); //Inicializamos la libreria LCD con sus r
 int Sensor = A0;  //Asignamos el PIN analogico A0 para el sensor LM35
 int ValorSensor = 0; //Variable para el almacenamiento del valor del sensor
 float Temperatura = 0; //Variable para almacenar el valor de la temperatura
-int PinBlanco = 13;  //Asignacion del puerto digital 6 para el color rojo
-int PinAzul = 12; //Asignacion del puerto digital 7 para el color Verde
+int PinBlanco = 13;  //Asignacion del puerto digital 13 para el color blanco
+int PinAzul = 12; //Asignacion del puerto digital 12 para el color azul
 int some_limit = 9;
 
 
